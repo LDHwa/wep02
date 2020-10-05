@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Welcome to DongH's Picture </title>
+	<style>
+		* { margin: 0;
+		font-family: "Malgun Gothic", sans-serif;}
+		body{
+			width: 950px;
+			background-color: #E5e5e5;
+			margin: 0px auto;
+			color : white;
+			}
+			a {text-decoration: none;}
+			li {list-style : none;}
+			.navi a { color : white; }
+			#page {
+				background-color: #252525;
+				margin : 40px 0px;
+				padding: 20px;
+				border-radius: 20px;
+			}
+/*			.box{
+				width : 100px;
+				height : 50px;
+				margin : 20px 30px;
+				padding : 10px;
+				background-color : orange;
+				display: inline-block;
+			}
+			.v{width:100px;
+			   height: 50px;
+				background: blue;
+				display : block;} */
+				.navi{
+					margin :15px 0px;
+					border-top : 1px solid #47ece5;
+					border-bottom : 1px solid #47ece5;
+					height : 60px;
+				}
+				.navi>ul>li{
+					display : inline-block;
+					padding : 5px 50px;
+					line-height: 50px;
+				}
+				.navi>ul>li:hover{
+					background : #47ece5;
+				}
+				.main{
+					float: left;
+					max-width: 700px;
+				}
+				.right{
+					float: right;
+					max-width: 230px;
+				}
+				footer{
+					margin: 40px 0px;
+					padding: 20px;
+					clear: both;
+				}
+
+
+</style>
+</head>
+<body>
+	<div id= "page">
+	<header>
+		<h1> DH-Gly</h1>
+	</header>
+	<!--<div class="box">01</div>
+	<div class="box">02</div>
+	<div class="box">03</div>
+	<div class="box">04</div>
+	<div class="box">05</div>
+	<span class="v">span1</span>
+	<span class="v">span2</span>
+	<span class="v">span3</span> -->
+
+	<nav>
+		<div class="navi">
+			<ul>
+				<li><a href="sub01.html">Home</a></li>
+				<li><a href="sub02.html">Gallery</a></li>
+				<li><a href="sub04.html">Community</a></li>
+				<li><a href="sub05.html">About</a></li>
+			</ul>
+		</div>
+	</nav>
+	<section class="main">
+		<article>
+			<h3 style="color:white; font-size:25px;"> PHOTO </h3>
+			<img src="../images/photo12.jpg" alt="">
+			</article>
+		<article>
+			
+		</article>
+	</section>
+	<aside class="right">
+		<h3> Login</h3>
+		<form action="#"method="post">
+			ID : <input type="text" name="id"> <br>
+			Password : <input type="password" name="pw"> <br>
+			<input type="submit" value="로그인">
+			<input type="reset" value="취소"> <br>
+		</form>
+	</aside>
+	<footer>
+		<audio src="../media/HYPAcrossSpace.mp3"controls autoplay ></audio>
+		Copyright@LeeDongHwa
+	</footer>
+	</div>
+</body>
+</html>
